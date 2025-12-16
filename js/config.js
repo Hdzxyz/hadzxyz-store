@@ -1,14 +1,14 @@
 const CONFIG = {
 nama: "Hadzxyz Store", // Nama Store
 profil: "https://files.catbox.moe/vun3kt.jpg", // Url Profil
-banner: "https://files.catbox.moe/2ecqsp.jpg", // Url Banner 
-tentang: "Hadzxyz Store adalah toko online terpercaya yang telah melayani ribuan pelanggan sejak 2023. Kami menyediakan berbagai produk digital untuk kebutuhan sehari-hari dengan kualitas terbaik dan harga terjangkau.\n\nKomitmen kami adalah memberikan pengalaman berbelanja yang menyenangkan dengan pelayanan terbaik, produk original, dan garansi resmi untuk semua produk yang kami jual.",
+banner: "https://files.catbox.moe/lkvdqq.jpg", // Url Banner 
+tentang: "HadzxyzStore adalah toko online terpercaya yang telah melayani ribuan pelanggan sejak 2023. Kami menyediakan berbagai produk digital untuk kebutuhan sehari-hari dengan kualitas terbaik dan harga terjangkau.\n\nKomitmen kami adalah memberikan pengalaman berbelanja yang menyenangkan dengan pelayanan terbaik, produk original, dan garansi resmi untuk semua produk yang kami jual.",
 alamat: "Jl. Rengasdengklok Jawa Barat",
 sosial_media: {
   email: "hadzzokeyy@gmail.com", // Email
   youtube: "alwayshadzxyz", // YouTube Username 
   tiktok: "hadzzokeyy", // Tiktok Username 
-  whatsapp: "+62838-7699-9143", // WhatsApp Number 
+  whatsapp: "6283876999143", // WhatsApp Number 
   telegram: "alwayshadzxyz" // Telegram Username
 },
 payment: {
@@ -18,8 +18,8 @@ payment: {
   qris: "0838-7699-9143" // Url Qris
 },
 telegram_api: {
-  bot: "8504935869:AAFoxrMV8Gemf2DcrBwYW_CYH4sFUg3FiyQ", // Token bot father
-  chatid: "8245509303" // ID telegram
+  bot: "8271993707:AAFsJCwzj3vMYqDftKjjug13t6xCCxziG-w", // Token bot father
+  chatid: "8401107488" // ID telegram
 },
 }
 
