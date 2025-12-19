@@ -56,11 +56,11 @@
         <div class="cart-summary">
             <h3 class="section-title">Ringkasan Belanja</h3>
             <div class="summary-item">
-                <span>Subtotal</span>
+                <span>Subtotaltotal</span>
                 <span id="subtotal">Rp 0</span>
             </div>
             <div class="summary-item">
-                <span>Ongkos Kirim</span>
+                <span>Fee admin</span>
                 <span>Gratis</span>
             </div>
             <div class="summary-total">
@@ -93,7 +93,7 @@
                     <a href="profil.html">Profil</a>
                 </div>
                 <div class="footer-section">
-                    <h3>Ikuti Kami</h3>
+                    <h3>Ikuti kami</h3>
                     <div class="social-icons">
                         <a id="ytLink" target="_blank"><i class="fab fa-youtube"></i></a>
                         <a id="tiktokLink" target="_blank"><i class="fab fa-tiktok"></i></a>
@@ -103,7 +103,7 @@
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2025 Zass Desuta. All Rights Reserved.</p>
+                <p>&copy; 2025 Alwayshadzxyz. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
@@ -195,7 +195,7 @@
         </a>
         <a href="profil.html" class="nav-item">
             <i class="fas fa-user"></i>
-            <span>Profil</span>
+            <span>About</span>
         </a>
     </div>
 
@@ -459,7 +459,7 @@
             
             // Generate invoice ID and date
             const date = new Date();
-            invoiceId.textContent = 'ZPAY-' + Math.floor(100000 + Math.random() * 900000);
+            invoiceId.textContent = 'HPAY-' + Math.floor(100000 + Math.random() * 900000);
             invoiceDate.textContent = date.toLocaleDateString('id-ID', {
                 day: 'numeric',
                 month: 'long',
@@ -538,7 +538,7 @@
             const message = `Halo, saya ingin memesan produk dengan detail berikut:%0A%0A${orderDetails}%0A%0ATotal: Rp ${subtotal.toLocaleString('id-ID')}%0AMetode Pembayaran: ${selectedPaymentMethod.method.toUpperCase()}%0AInvoice: ${invoiceId.textContent}%0A%0ASaya sudah melakukan pembayaran ke ${selectedPaymentMethod.number}. Mohon konfirmasi pesanan saya.`;
             
             // Open WhatsApp with pre-filled message
-            window.open(`https://wa.me/${CONFIG.sosial_media.whatsapp}?text=${message}`, '_blank');
+            window.open(`https://t.me/${CONFIG.sosial_media.telegram}?text=${message}`, '_blank');
             
             // Close modal
             closePaymentModal();
