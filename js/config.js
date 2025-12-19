@@ -1,6 +1,6 @@
 const CONFIG = {
 nama: "Hadzxyz Store", // Nama Store
-profil: "https://files.catbox.moe/vun3kt.jpg", // Url Profil
+profil: "https://files.catbox.moe/7ih2dn.jpg", // Url Profil
 banner: "https://files.catbox.moe/lkvdqq.jpg", // Url Banner 
 tentang: "HadzxyzStore adalah toko online terpercaya yang telah melayani ribuan pelanggan sejak 2023. Kami menyediakan berbagai produk digital untuk kebutuhan sehari-hari dengan kualitas terbaik dan harga terjangkau.\n\nKomitmen kami adalah memberikan pengalaman berbelanja yang menyenangkan dengan pelayanan terbaik, produk original, dan garansi resmi untuk semua produk yang kami jual.",
 alamat: "Jl. Rengasdengklok Jawa Barat",
