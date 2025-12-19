@@ -15,7 +15,7 @@ payment: {
   dana: "0838-7699-9143", // Payment Dana
   gopay: "0838-7699-9143", // Payment Gopay 
   ovo: "0838-7699-9143", // Payment Ovo 
-  qris: "0838-7699-9143" // Url Qris
+  qris: "https://files.catbox.moe/l7xha9.jpeg" // Url Qris
 },
 telegram_api: {
   bot: "8271993707:AAFsJCwzj3vMYqDftKjjug13t6xCCxziG-w", // Token bot father
