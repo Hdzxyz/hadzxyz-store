@@ -47,7 +47,7 @@ const productsData = {
               },
               {
                 "id": 2,
-                "name": "VPS Kecil",
+                "name": "VPS Standart",
                 "icon": "fas fa-microchip",
                 "description": "Virtual Private Server murah untuk belajar dan project kecil.",
                 "variants": [
@@ -57,9 +57,9 @@ const productsData = {
               },
               {
                 "id": 3,
-                "name": "VPS Menengah",
+                "name": "VPS High",
                 "icon": "fas fa-hdd",
-                "description": "VPS menengah dengan performa cukup untuk website atau panel hosting.",
+                "description": "VPS High quality dengan performa cukup untuk website atau panel hosting.",
                 "variants": [
                   { "name": "2 vCPU / 4GB RAM / 80GB SSD", "price": 75000 },
                   { "name": "4 vCPU / 8GB RAM / 160GB SSD", "price": 135000 }
@@ -67,12 +67,13 @@ const productsData = {
               },
               {
                 "id": 4,
-                "name": "Dedicated Server",
+                "name": "Nokos",
                 "icon": "fas fa-database",
-                "description": "Server dedicated dengan performa tinggi, cocok untuk skala besar.",
+                "description": "Nokos adalah singkatan dari nomor kosong atau virtual number tersedia berbagai negara.",
                 "variants": [
-                  { "name": "8 vCPU / 32GB RAM / 500GB SSD", "price": 450000 },
-                  { "name": "16 vCPU / 64GB RAM / 1TB SSD", "price": 800000 }
+                  { "name": "Nokos WhatsApp", "price": 5000 },
+                  { "name": "Nokos Telegram", "price": 7000 },
+                  ( "name": "Nokos Premium", "price": 48000 }
                 ]
               },
               {
@@ -196,6 +197,7 @@ const productsData = {
                     icon: "fas fa-user-circle",
                     description: "Berbagai akun premium dengan harga terjangkau, cocok untuk hiburan dan produktivitas.",
                     variants: [
+                        { name: "Alight Motion ( 1 Tahun)", price: 10000
                         { name: "Netflix Premium (1 Bulan)", price: 35000 },
                         { name: "Spotify Premium (1 Bulan)", price: 25000 },
                         { name: "Canva Pro (1 Bulan)", price: 20000 }
