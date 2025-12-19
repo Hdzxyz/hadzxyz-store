@@ -538,7 +538,7 @@
             const message = `Halo, saya ingin memesan produk dengan detail berikut:%0A%0A${orderDetails}%0A%0ATotal: Rp ${subtotal.toLocaleString('id-ID')}%0AMetode Pembayaran: ${selectedPaymentMethod.method.toUpperCase()}%0AInvoice: ${invoiceId.textContent}%0A%0ASaya sudah melakukan pembayaran ke ${selectedPaymentMethod.number}. Mohon konfirmasi pesanan saya.`;
             
             // Open WhatsApp with pre-filled message
-            window.open(`https://t.me/${CONFIG.sosial_media.telegram}?text=${message}`, '_blank');
+            window.open(`https://wa.me/${CONFIG.sosial_media.whatsapp}?text=${message}`, '_blank');
             
             // Close modal
             closePaymentModal();
